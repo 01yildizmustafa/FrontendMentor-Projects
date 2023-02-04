@@ -146,6 +146,12 @@
         border-bottom-right-radius: 7px;
       }
     }
+    
+    @media (min-width: 500px) {
+      body {
+         background-color: yellow;
+       }
+    }
   </style>
 </head>
 
