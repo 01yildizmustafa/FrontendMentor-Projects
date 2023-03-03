@@ -1,0 +1,295 @@
+@media (min-width: 1281px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Kumbh Sans', sans-serif;
+    }
+
+    ::selection {
+        background-color: hsl(14, 88%, 65%);
+        color: white;
+    }
+
+    body {
+        min-height: 100vh;
+        background: linear-gradient(0deg, hsl(240, 73%, 65%), hsl(273, 75%, 66%));
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container {
+        width: 1200px;
+        display: flex;
+        border-radius: 25px;
+        background-image: url("/frontend-mentor/faq-accordion-card-main/images/bg-pattern-desktop.svg");
+        background-color: white;
+        margin-top: 150px;
+        margin-bottom: 100px;
+        padding-bottom: 50px;
+    }
+
+    .section-1 {
+        width: 40%;
+    }
+
+    .section-1 .picture {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding-left: 80px;
+    }
+    
+    .section-1 .picture .img-1 {
+        content: url("/frontend-mentor/faq-accordion-card-main/images/illustration-woman-online-desktop.svg");
+        z-index: 99;
+        -moz-user-select: -moz-none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -o-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    
+    .section-1 .picture .img-2 {
+        content: url("/frontend-mentor/faq-accordion-card-main/images/illustration-box-desktop.svg");
+        z-index: 9999;
+        width: 200px;
+        position: absolute;
+        margin-top: 80px;
+        margin-left: -30px;
+        -moz-user-select: -moz-none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -o-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .section-2 {
+        width: 60%;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section-2 .h1 {
+        text-align: center;
+        color: hsl(238, 29%, 16%);
+        padding-bottom: 30px;
+        margin-top: 50px;
+        -moz-user-select: -moz-none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -o-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .faq {
+        border-bottom: 1px solid hsl(240, 5%, 91%);
+        width: 500px;
+    }
+
+    .faq:hover {
+        cursor: pointer;
+    }
+
+    .faq:hover .question .p p {
+        color: hsl(14, 88%, 65%);
+    }
+
+    .faq .question {
+        display: flex;
+        -moz-user-select: -moz-none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -o-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .faq .question .p {
+        width: 100%;
+        height: 100%;
+    }
+
+    .faq .question p {
+        text-align: center;
+        line-height: 55px;
+    }
+
+    .faq .question button {
+        width: 50px;
+        height: 55px;
+        border: none;
+        cursor: pointer;
+        background-color: #fff;
+    }
+    
+    .faq .answer {
+        width: 450px;
+    }
+
+    .faq .answer .p {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 20px;
+    }
+
+    .faq .answer p {
+        text-align: center;
+    }
+
+    .ok .img {
+        content: url("/frontend-mentor/faq-accordion-card-main/images/icon-arrow-down.svg");
+        width: 15px;
+    }
+
+}
+
+
+@media (max-width: 1280px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Kumbh Sans', sans-serif;
+    }
+
+    ::selection {
+        background-color: hsl(14, 88%, 65%);
+        color: white;
+    }
+
+    body {
+        min-height: 100vh;
+        background: linear-gradient(0deg, hsl(240, 73%, 65%), hsl(273, 75%, 66%));
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container {
+        margin-top: 150px;
+        margin-bottom: 100px;
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 25px;
+        background-image: url("/faq-accordion-card-main/images/bg-pattern-mobile.svg");
+        background-color: white;
+        padding-bottom: 40px;
+    }
+
+    .section-1 {
+        height: 150px;
+    }
+
+    .section-1 .picture {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 0%;
+    }
+    
+    .section-1 .picture .img-1 {
+        content: url("/faq-accordion-card-main/images/illustration-woman-online-mobile.svg");
+        z-index: 99;
+        width: 250px;
+        -moz-user-select: -moz-none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -o-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .section-2 {
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section-2 .h1 {
+        text-align: center;
+        color: hsl(238, 29%, 16%);
+        padding-bottom: 30px;
+        -moz-user-select: -moz-none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -o-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .faq {
+        border-bottom: 1px solid hsl(240, 5%, 91%);
+        width: 300px;
+    }
+
+    .faq:hover {
+        cursor: pointer;
+    }
+
+    .faq:hover .question .p p {
+        color: hsl(14, 88%, 65%);
+    }
+
+    .faq .question {
+        display: flex;
+        padding-bottom: 20px;
+        -moz-user-select: -moz-none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -o-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .faq .question .p {
+        width: 100%;
+        height: 100%;
+    }
+
+    .faq .question p {
+        text-align: center;
+        line-height: 25px;
+    }
+
+    .faq .question button {
+        width: 30px;
+        height: 25px;
+        border: none;
+        cursor: pointer;
+        background-color:#F0F0FD;
+    }
+
+    .faq .answer {
+        width: 300px;
+    }
+
+    .faq .answer .p {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 20px;
+    }
+
+    .faq .answer p {
+        text-align: center;
+    }
+
+    .ok .img {
+        content: url("/faq-accordion-card-main/images/icon-arrow-down.svg");
+        width: 15px;
+    }
+}
